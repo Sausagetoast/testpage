@@ -1,0 +1,101 @@
+nav {
+	font-size: 60px;
+	font-family: Courier;
+	background-color: lightgrey;
+	border: 1px solid grey;
+	border-radius: 5px;
+	text-align: center;
+	width: 99%;
+	margin: 10px;
+	box-shadow: 0px 0px 10px white;
+}
+
+body {
+	background-color: black;
+}
+
+a {
+	text-decoration: none;
+	display: inline;
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: grey;
+}
+
+.container {
+	width: 70%;
+	height: 280px;
+	background-color: grey;
+	margin: auto;
+	margin-top: 5px;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-top: 20px;
+	display: flex;
+	position: relative;
+	box-shadow: 0px 0px 10px white;
+
+}
+
+.container img {
+	width: 240px;
+	height: 260px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px black;
+	
+}
+
+.description {
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: lightgrey;
+	width: 100%;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+	border-radius: 3px;
+	position: relative;
+	box-shadow: 0px 0px 10px black;
+}
+
+.btn {
+	width: 200px;
+	background-color: orange;
+	margin: auto;
+	text-align: center;
+	font-family: Impact;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px black;
+	z-index: 1;
+}
+	
+.btn:hover {
+	width: 200px;
+	background-color: orange;
+	margin: auto;
+	text-align: center;
+	font-family: Impact;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px black;
+	cursor: pointer;
+}	
+
+h1 {
+	font-family: Courier;
+	text-align: center;
+}
+
+p {
+	font-family: Courier;
+}
+
+.btn > p {
+	font-family: Impact;
+	font-size: 30px;
+}

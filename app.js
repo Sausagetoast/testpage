@@ -1,7 +1,7 @@
 var main = function(){
 	$( '.btn' ).click(function() {
-		$('.watchWindow').toggle();
-	});
+			$('.watchWindow').slideToggle(300);	
+		});
 }
 
 $(document).ready(main)

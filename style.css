@@ -7,7 +7,13 @@ nav {
 	text-align: center;
 	width: 1800px;
 	margin: auto;
+	margin-top: -60px;
 	box-shadow: 0px 0px 10px white;
+	position: fixed;
+	z-index: 1;
+	left: 50%;
+	transform: translate(-50%);
+
 }
 
 body {
@@ -109,15 +115,47 @@ p {
 	display: none;
 	position: relative;
 	box-shadow: 0px 0px 10px white;
+	overflow: auto;
 }
 
 .video {
 	border-radius: 5px;
 	box-shadow: 0px 0px 10px black;
-	margin-left: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 1280px;
+	height: 720px;
+	display: flex;
 }
 
 /*.btn > p {
 	font-family: Impact;
 	font-size: 30px;
 }*/
+.btnNext {
+	width: 200px;
+	background-color: orange;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-align: center;
+	font-family: Impact;
+	font-size: 30px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px black;
+	display: block;
+	position: relative;
+}
+
+.btnNext:hover {
+	width: 200px;
+	background-color: orange;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-align: center;
+	font-family: Impact;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px black;
+	cursor: pointer;
+}	

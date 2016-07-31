@@ -1,7 +1,7 @@
 nav {
 	font-size: 60px;
 	font-family: Courier;
-	background-color: lightgrey;
+	background-color: orange;
 	border: 1px solid grey;
 	border-radius: 5px;
 	text-align: center;
@@ -25,7 +25,7 @@ a:visited {
 }
 
 a:hover {
-	color: grey;
+	color: black;
 }
 
 .container {
@@ -40,7 +40,6 @@ a:hover {
 	display: flex;
 	position: relative;
 	box-shadow: 0px 0px 10px white;
-
 }
 
 .container img {
@@ -62,6 +61,7 @@ a:hover {
 	border-radius: 3px;
 	position: relative;
 	box-shadow: 0px 0px 10px black;
+	overflow: auto;
 }
 
 .btn {
@@ -95,6 +95,25 @@ h1 {
 
 p {
 	font-family: Courier;
+}
+
+.watchWindow {
+	width: 70%;
+	height: 800px;
+	background-color: grey;
+	margin: auto;
+	margin-top: 5px;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-top: 20px;
+	display: none;
+	position: relative;
+	box-shadow: 0px 0px 10px white;
+}
+
+.video {
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px black;
 }
 
 /*.btn > p {

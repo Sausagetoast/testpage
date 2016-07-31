@@ -114,6 +114,7 @@ p {
 .video {
 	border-radius: 5px;
 	box-shadow: 0px 0px 10px black;
+	margin-left: 10px;
 }
 
 /*.btn > p {
